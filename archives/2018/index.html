@@ -95,12 +95,12 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:title">
+<meta property="og:title" content="HomePage">
 <meta property="og:url" content="http://yoursite.com/archives/2018/index.html">
-<meta property="og:site_name">
+<meta property="og:site_name" content="HomePage">
 <meta property="og:locale" content="default">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title">
+<meta name="twitter:title" content="HomePage">
 
 
 
@@ -109,7 +109,7 @@
   var CONFIG = {
     root: '/',
     scheme: 'Gemini',
-    sidebar: {"position":"left","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"always","offset":12,"offset_float":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: true,
@@ -135,7 +135,7 @@
 
 
 
-  <title>Archive | </title>
+  <title>Archive | HomePage</title>
   
 
 
@@ -171,7 +171,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title"></span>
+        <span class="site-title">HomePage</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -370,8 +370,8 @@
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.png"
-               alt="Min Zhang （张民）" />
-          <p class="site-author-name" itemprop="name">Min Zhang （张民）</p>
+               alt="Min Zhang（张民）" />
+          <p class="site-author-name" itemprop="name">Min Zhang（张民）</p>
            
               <p class="site-description motion-element" itemprop="description"></p>
           
@@ -431,7 +431,7 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Min Zhang （张民）</span>
+  <span class="author" itemprop="copyrightHolder">Min Zhang（张民）</span>
 </div>
 
 
@@ -456,6 +456,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     

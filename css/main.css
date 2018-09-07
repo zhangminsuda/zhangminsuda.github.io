@@ -1084,7 +1084,7 @@ pre .javascript .function {
 }
 @media (max-width: 767px) {
   .site-meta {
-    text-align: center;
+    text-align: left;
   }
 }
 .brand {
@@ -1109,6 +1109,7 @@ pre .javascript .function {
   vertical-align: top;
   line-height: 36px;
   font-size: 20px;
+  text-align: left;
   font-weight: normal;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
@@ -1812,7 +1813,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e014d4;
+  background: #ff2ac9;
 }
 .links-of-blogroll {
   font-size: 13px;
